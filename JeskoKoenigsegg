@@ -1,0 +1,51 @@
+<html>
+    <head>
+    <title>Image</title>
+    </head>
+    <style>
+    body{
+        background-color: lightgray;
+    }
+    h1{
+        color: red; 
+        text-align: center;
+    }
+    img{
+        border: 2px solid red;
+        width: 30%px;
+        height: 40%;
+        margin-left: 500px;
+    }
+    p{
+        color: darkblue;
+        font-size: 20px;
+        margin-left: 100px;
+        margin-right: 100px
+    }
+    h2{
+        text-align: center;
+        background-color: lightblue;
+        border: 5px solid darkblue;
+        border-bottom-color: blue;
+        margin-left: 450px;
+        margin-right: 450px;
+    }
+    p1{
+      color: brown;
+      font-size:19px;
+      margin-left: 100px;
+        margin-right: 100px
+    }
+</style>
+<body >
+
+<h1><u>KOENIGSEGG JESKO</u></h1>
+
+<div>
+<img src="Jesko.jpg">
+    <p>The key to this functionality is found in both the transmission’s unique design and Koenigsegg’s intelligent <mark>‘UPOD’</mark> technology – Ultimate Power On Demand. UPOD is the brain that instantly selects and engages optimum gearing for maximum acceleration.</p>
+</div>
+    <h2 style="color: darkblue"><u>ENGINE</u></h2>
+    <p1>The engine is a development of the 5.0-litre twin-turbocharged V8 engine used in the Agera. It has four valves per cylinder each with a bore and stroke of 92 mm × 95.25 mm (3.62 by 3.75 inches) and a compression ratio of 8.6:1. The engine has a power output of 1,298 PS (955 kW; 1,280 hp) on normal gasoline and has a power output of 1,622 PS (1,193 kW; 1,600 hp) and 1,573 N⋅m (1,160 lb⋅ft) of torque at 5,100 rpm on E85 biofuel.</p1>
+</body>
+</html>
