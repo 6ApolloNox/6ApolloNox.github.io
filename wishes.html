@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Noxious form</title>
+    <script type="text/javascript"> 
+        function validate(){
+            var Username = document.getElementById("Uname");
+            var Password = document.getElementById("Pass");
+            
+            if(Username.value.trim()=="" || Password.Value.trim()=="")
+                
+                {
+                    alert("No blank values are allowed");
+                    return false;
+                }
+            else
+            {
+                true;
+            }
+        }
+        </script>
+    </head>
+    <style>
+        body{
+            background-color: lightblue;
+            }
+    </style>
+    <body>
+    <form onsubmit="return validate()" action="STI.html">
+        Name: <input id="Uname" placeholder="Username"
+        type="text"/>
+        <br><br>
+        Password: <input id="pass" placeholder="Password"
+        type=password/>
+        <br><br>
+        <button type="submit">Submit!</button>
+    </form>
+    </body>
+</html>
